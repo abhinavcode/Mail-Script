@@ -69,5 +69,5 @@ for l in f:
 	msg.attach(part)
 	#if you dont have any file remove till here 	
 
-   	conn.sendmail(sender, (emailid), msg.as_string())
+   	conn.sendmail(USERNAME, (emailid), msg.as_string())
 	print "mail sent to %s" %emailid 
